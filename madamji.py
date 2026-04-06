@@ -70,8 +70,6 @@ elif st.session_state.page == 2:
     for p in promises:
         type_text(p)
         time.sleep(0.5)
-
-    st.balloons()
     next_button()
 
 # ---------------- PAGE 3 ----------------
@@ -100,7 +98,6 @@ elif st.session_state.page == 4:
             type_text("I love you so much my sunshine my love love so muchhhh 😘😘😘 💖")
             
             st.balloons()
-            next_button()
 
     with col2:
         if st.button("Nahi 😢"):
